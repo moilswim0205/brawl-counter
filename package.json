@@ -1,0 +1,14 @@
+{
+  "name": "brawl-counter",
+  "version": "0.1.0",
+  "description": "브롤스타즈 브롤러 상성 및 맵별 추천 사이트",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-data.js",
+    "serve": "node scripts/serve.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

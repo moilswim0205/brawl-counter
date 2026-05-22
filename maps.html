@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>맵별 추천 · Brawl Counter</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site"></header>
+  <main>
+    <h1>맵별 추천 브롤러</h1>
+    <p class="muted">모드와 맵을 선택하면 그 맵에서 강한 브롤러를 티어별로 보여줍니다.</p>
+
+    <div class="panel">
+      <label for="mode">모드</label>
+      <select id="mode"></select>
+      <label for="map" style="margin-left:16px">맵</label>
+      <select id="map" disabled></select>
+    </div>
+
+    <div class="panel" id="range-filter"></div>
+
+    <div id="result"></div>
+    <p id="empty" class="empty-hint">먼저 모드와 맵을 선택하세요.</p>
+  </main>
+  <script type="module" src="js/maps.js"></script>
+</body>
+</html>

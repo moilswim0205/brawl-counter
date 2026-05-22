@@ -1,0 +1,730 @@
+[
+  {
+    "name": "셸리",
+    "slug": "shelly",
+    "class": "Damage Dealer",
+    "range": "short",
+    "id": 16000000
+  },
+  {
+    "name": "콜트",
+    "slug": "colt",
+    "class": "Damage Dealer",
+    "range": "long",
+    "id": 16000001
+  },
+  {
+    "name": "불",
+    "slug": "bull",
+    "class": "Tank",
+    "range": "short",
+    "id": 16000002
+  },
+  {
+    "name": "브록",
+    "slug": "brock",
+    "class": "Damage Dealer",
+    "range": "long",
+    "id": 16000003
+  },
+  {
+    "name": "리코",
+    "slug": "rico",
+    "class": "Damage Dealer",
+    "range": "long",
+    "id": 16000004
+  },
+  {
+    "name": "스파이크",
+    "slug": "spike",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000005
+  },
+  {
+    "name": "발리",
+    "slug": "barley",
+    "class": "Artillery",
+    "range": "medium",
+    "id": 16000006
+  },
+  {
+    "name": "제시",
+    "slug": "jessie",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000007
+  },
+  {
+    "name": "니타",
+    "slug": "nita",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000008
+  },
+  {
+    "name": "다이너마이크",
+    "slug": "dynamike",
+    "class": "Artillery",
+    "range": "long",
+    "id": 16000009
+  },
+  {
+    "name": "엘 프리모",
+    "slug": "el-primo",
+    "class": "Tank",
+    "range": "short",
+    "id": 16000010
+  },
+  {
+    "name": "모티스",
+    "slug": "mortis",
+    "class": "Assassin",
+    "range": "short",
+    "id": 16000011
+  },
+  {
+    "name": "크로우",
+    "slug": "crow",
+    "class": "Assassin",
+    "range": "medium",
+    "id": 16000012
+  },
+  {
+    "name": "포코",
+    "slug": "poco",
+    "class": "Support",
+    "range": "medium",
+    "id": 16000013
+  },
+  {
+    "name": "보",
+    "slug": "bo",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000014
+  },
+  {
+    "name": "파이퍼",
+    "slug": "piper",
+    "class": "Marksman",
+    "range": "long",
+    "id": 16000015
+  },
+  {
+    "name": "팸",
+    "slug": "pam",
+    "class": "Support",
+    "range": "medium",
+    "id": 16000016
+  },
+  {
+    "name": "타라",
+    "slug": "tara",
+    "class": "Controller",
+    "range": "medium",
+    "id": 16000017
+  },
+  {
+    "name": "대릴",
+    "slug": "darryl",
+    "class": "Tank",
+    "range": "short",
+    "id": 16000018
+  },
+  {
+    "name": "페니",
+    "slug": "penny",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000019
+  },
+  {
+    "name": "프랭크",
+    "slug": "frank",
+    "class": "Tank",
+    "range": "short",
+    "id": 16000020
+  },
+  {
+    "name": "진",
+    "slug": "gene",
+    "class": "Controller",
+    "range": "medium",
+    "id": 16000021
+  },
+  {
+    "name": "틱",
+    "slug": "tick",
+    "class": "Artillery",
+    "range": "long",
+    "id": 16000022
+  },
+  {
+    "name": "레온",
+    "slug": "leon",
+    "class": "Assassin",
+    "range": "short",
+    "id": 16000023
+  },
+  {
+    "name": "로사",
+    "slug": "rosa",
+    "class": "Tank",
+    "range": "short",
+    "id": 16000024
+  },
+  {
+    "name": "칼",
+    "slug": "carl",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000025
+  },
+  {
+    "name": "비비",
+    "slug": "bibi",
+    "class": "Tank",
+    "range": "short",
+    "id": 16000026
+  },
+  {
+    "name": "8비트",
+    "slug": "8-bit",
+    "class": "Damage Dealer",
+    "range": "long",
+    "id": 16000027
+  },
+  {
+    "name": "샌디",
+    "slug": "sandy",
+    "class": "Controller",
+    "range": "medium",
+    "id": 16000028
+  },
+  {
+    "name": "비",
+    "slug": "bea",
+    "class": "Marksman",
+    "range": "long",
+    "id": 16000029
+  },
+  {
+    "name": "엠즈",
+    "slug": "emz",
+    "class": "Controller",
+    "range": "medium",
+    "id": 16000030
+  },
+  {
+    "name": "미스터 P",
+    "slug": "mr-p",
+    "class": "Controller",
+    "range": "medium",
+    "id": 16000031
+  },
+  {
+    "name": "맥스",
+    "slug": "max",
+    "class": "Support",
+    "range": "medium",
+    "id": 16000032
+  },
+  {
+    "name": "재키",
+    "slug": "jacky",
+    "class": "Tank",
+    "range": "short",
+    "id": 16000034
+  },
+  {
+    "name": "게일",
+    "slug": "gale",
+    "class": "Controller",
+    "range": "medium",
+    "id": 16000035
+  },
+  {
+    "name": "나니",
+    "slug": "nani",
+    "class": "Damage Dealer",
+    "range": "long",
+    "id": 16000036
+  },
+  {
+    "name": "스프라우트",
+    "slug": "sprout",
+    "class": "Artillery",
+    "range": "medium",
+    "id": 16000037
+  },
+  {
+    "name": "서지",
+    "slug": "surge",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000038
+  },
+  {
+    "name": "콜레트",
+    "slug": "colette",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000039
+  },
+  {
+    "name": "앰버",
+    "slug": "amber",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000040
+  },
+  {
+    "name": "루",
+    "slug": "lou",
+    "class": "Controller",
+    "range": "medium",
+    "id": 16000041
+  },
+  {
+    "name": "바이런",
+    "slug": "byron",
+    "class": "Support",
+    "range": "long",
+    "id": 16000042
+  },
+  {
+    "name": "에드거",
+    "slug": "edgar",
+    "class": "Assassin",
+    "range": "short",
+    "id": 16000043
+  },
+  {
+    "name": "콜로넬 러프스",
+    "slug": "ruffs",
+    "class": "Support",
+    "range": "medium",
+    "id": 16000044
+  },
+  {
+    "name": "스튜",
+    "slug": "stu",
+    "class": "Assassin",
+    "range": "medium",
+    "id": 16000045
+  },
+  {
+    "name": "벨",
+    "slug": "belle",
+    "class": "Marksman",
+    "range": "long",
+    "id": 16000046
+  },
+  {
+    "name": "스퀴크",
+    "slug": "squeak",
+    "class": "Artillery",
+    "range": "medium",
+    "id": 16000047
+  },
+  {
+    "name": "그롬",
+    "slug": "grom",
+    "class": "Artillery",
+    "range": "medium",
+    "id": 16000048
+  },
+  {
+    "name": "버즈",
+    "slug": "buzz",
+    "class": "Assassin",
+    "range": "short",
+    "id": 16000049
+  },
+  {
+    "name": "그리프",
+    "slug": "griff",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000050
+  },
+  {
+    "name": "애쉬",
+    "slug": "ash",
+    "class": "Tank",
+    "range": "short",
+    "id": 16000051
+  },
+  {
+    "name": "메그",
+    "slug": "meg",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000052
+  },
+  {
+    "name": "롤라",
+    "slug": "lola",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000053
+  },
+  {
+    "name": "팽",
+    "slug": "fang",
+    "class": "Assassin",
+    "range": "short",
+    "id": 16000054
+  },
+  {
+    "name": "이브",
+    "slug": "eve",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000056
+  },
+  {
+    "name": "자넷",
+    "slug": "janet",
+    "class": "Marksman",
+    "range": "long",
+    "id": 16000057
+  },
+  {
+    "name": "보니",
+    "slug": "bonnie",
+    "class": "Marksman",
+    "range": "long",
+    "id": 16000058
+  },
+  {
+    "name": "오티스",
+    "slug": "otis",
+    "class": "Controller",
+    "range": "medium",
+    "id": 16000059
+  },
+  {
+    "name": "샘",
+    "slug": "sam",
+    "class": "Tank",
+    "range": "short",
+    "id": 16000060
+  },
+  {
+    "name": "거스",
+    "slug": "gus",
+    "class": "Support",
+    "range": "medium",
+    "id": 16000061
+  },
+  {
+    "name": "버스터",
+    "slug": "buster",
+    "class": "Tank",
+    "range": "medium",
+    "id": 16000062
+  },
+  {
+    "name": "체스터",
+    "slug": "chester",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000063
+  },
+  {
+    "name": "그레이",
+    "slug": "gray",
+    "class": "Support",
+    "range": "medium",
+    "id": 16000064
+  },
+  {
+    "name": "맨디",
+    "slug": "mandy",
+    "class": "Marksman",
+    "range": "long",
+    "id": 16000065
+  },
+  {
+    "name": "R-T",
+    "slug": "r-t",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000066
+  },
+  {
+    "name": "윌로우",
+    "slug": "willow",
+    "class": "Controller",
+    "range": "medium",
+    "id": 16000067
+  },
+  {
+    "name": "메이지",
+    "slug": "maisie",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000068
+  },
+  {
+    "name": "행크",
+    "slug": "hank",
+    "class": "Tank",
+    "range": "medium",
+    "id": 16000069
+  },
+  {
+    "name": "코델리우스",
+    "slug": "cordelius",
+    "class": "Assassin",
+    "range": "short",
+    "id": 16000070
+  },
+  {
+    "name": "더그",
+    "slug": "doug",
+    "class": "Support",
+    "range": "medium",
+    "id": 16000071
+  },
+  {
+    "name": "펄",
+    "slug": "pearl",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000072
+  },
+  {
+    "name": "척",
+    "slug": "chuck",
+    "class": "Damage Dealer",
+    "range": "short",
+    "id": 16000073
+  },
+  {
+    "name": "찰리",
+    "slug": "charlie",
+    "class": "Controller",
+    "range": "medium",
+    "id": 16000074
+  },
+  {
+    "name": "미코",
+    "slug": "mico",
+    "class": "Assassin",
+    "range": "short",
+    "id": 16000075
+  },
+  {
+    "name": "키트",
+    "slug": "kit",
+    "class": "Support",
+    "range": "short",
+    "id": 16000076
+  },
+  {
+    "name": "래리 & 로리",
+    "slug": "larry-lawrie",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000077
+  },
+  {
+    "name": "멜로디",
+    "slug": "melodie",
+    "class": "Assassin",
+    "range": "medium",
+    "id": 16000078
+  },
+  {
+    "name": "안젤로",
+    "slug": "angelo",
+    "class": "Marksman",
+    "range": "long",
+    "id": 16000079
+  },
+  {
+    "name": "드라코",
+    "slug": "draco",
+    "class": "Tank",
+    "range": "medium",
+    "id": 16000080
+  },
+  {
+    "name": "릴리",
+    "slug": "lily",
+    "class": "Assassin",
+    "range": "short",
+    "id": 16000081
+  },
+  {
+    "name": "베리",
+    "slug": "berry",
+    "class": "Support",
+    "range": "medium",
+    "id": 16000082
+  },
+  {
+    "name": "클랜시",
+    "slug": "clancy",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000083
+  },
+  {
+    "name": "모",
+    "slug": "moe",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000084
+  },
+  {
+    "name": "켄지",
+    "slug": "kenji",
+    "class": "Assassin",
+    "range": "short",
+    "id": 16000085
+  },
+  {
+    "name": "셰이드",
+    "slug": "shade",
+    "class": "Assassin",
+    "range": "short",
+    "id": 16000086
+  },
+  {
+    "name": "주주",
+    "slug": "juju",
+    "class": "Controller",
+    "range": "medium",
+    "id": 16000087
+  },
+  {
+    "name": "미플",
+    "slug": "meeple",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000089
+  },
+  {
+    "name": "올리",
+    "slug": "ollie",
+    "class": "Tank",
+    "range": "short",
+    "id": 16000090
+  },
+  {
+    "name": "루미",
+    "slug": "lumi",
+    "class": "Damage Dealer",
+    "range": "medium",
+    "id": 16000091
+  },
+  {
+    "name": "핑스",
+    "slug": "finx",
+    "class": "Damage Dealer",
+    "range": "long",
+    "id": 16000092
+  },
+  {
+    "id": 16000093,
+    "name": "재용",
+    "slug": "jae-yong",
+    "class": "Support",
+    "range": "medium"
+  },
+  {
+    "id": 16000094,
+    "name": "카제",
+    "slug": "kaze",
+    "class": "Assassin",
+    "range": "short"
+  },
+  {
+    "id": 16000095,
+    "name": "알리",
+    "slug": "alli",
+    "class": "Assassin",
+    "range": "short"
+  },
+  {
+    "id": 16000096,
+    "name": "트렁크",
+    "slug": "trunk",
+    "class": "Tank",
+    "range": "short"
+  },
+  {
+    "id": 16000097,
+    "name": "미나",
+    "slug": "mina",
+    "class": "Damage Dealer",
+    "range": "medium"
+  },
+  {
+    "id": 16000098,
+    "name": "지기",
+    "slug": "ziggy",
+    "class": "Controller",
+    "range": "medium"
+  },
+  {
+    "id": 16000099,
+    "name": "피어스",
+    "slug": "pierce",
+    "class": "Marksman",
+    "range": "long"
+  },
+  {
+    "id": 16000100,
+    "name": "지지",
+    "slug": "gigi",
+    "class": "Assassin",
+    "range": "short"
+  },
+  {
+    "id": 16000101,
+    "name": "글로이",
+    "slug": "glowy",
+    "class": "Support",
+    "range": "medium"
+  },
+  {
+    "id": 16000102,
+    "name": "시리우스",
+    "slug": "sirius",
+    "class": "Controller",
+    "range": "medium"
+  },
+  {
+    "id": 16000103,
+    "name": "나지아",
+    "slug": "najia",
+    "class": "Damage Dealer",
+    "range": "medium"
+  },
+  {
+    "id": 16000104,
+    "name": "데미안",
+    "slug": "damian",
+    "class": "Tank",
+    "range": "short"
+  },
+  {
+    "id": 16000105,
+    "name": "스타노바",
+    "slug": "starr-nova",
+    "class": "Assassin",
+    "range": "short"
+  },
+  {
+    "id": 16000106,
+    "name": "볼트",
+    "slug": "bolt",
+    "class": "Tank",
+    "range": "short"
+  }
+]
