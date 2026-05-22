@@ -2,6 +2,20 @@
 
 브롤스타즈 브롤러 상성 · 맵별 추천 · 드래프트 도우미 정적 사이트.
 
+**라이브:** https://moilswim0205.github.io/brawl-counter/
+
+## 배포
+
+```powershell
+# 변경사항 자동 커밋 + 푸시 → GitHub Pages 자동 재빌드 (~30초~2분)
+.\deploy.ps1
+
+# 메시지 직접 지정
+.\deploy.ps1 "데이터 갱신"
+```
+
+저장소: https://github.com/moilswim0205/brawl-counter
+
 ## 로컬에서 실행
 
 ```powershell
