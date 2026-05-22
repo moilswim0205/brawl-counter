@@ -42,11 +42,10 @@ export function matchupScore(matchups, attackerSlug, defenderSlug) {
 
 export function renderHeader(activePage) {
   const links = [
-    { href: 'index.html',    label: '홈',         key: 'home' },
-    { href: 'rotation.html', label: '로테이션',   key: 'rotation' },
-    { href: 'matchup.html',  label: '상성표',     key: 'matchup' },
-    { href: 'maps.html',     label: '맵별 추천',  key: 'maps' },
-    { href: 'draft.html',    label: '드래프트',   key: 'draft' }
+    { href: 'index.html',   label: '홈',         key: 'home' },
+    { href: 'matchup.html', label: '상성표',     key: 'matchup' },
+    { href: 'maps.html',    label: '맵별 추천',  key: 'maps' },
+    { href: 'draft.html',   label: '드래프트',   key: 'draft' }
   ];
   const html = `
     <span class="brand">Brawl Counter</span>

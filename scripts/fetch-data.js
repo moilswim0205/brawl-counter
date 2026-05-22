@@ -15,7 +15,6 @@ import { fileURLToPath } from 'node:url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, '..', 'data');
 const BRAWLERS_PATH = join(DATA_DIR, 'brawlers.json');
-const ROTATION_PATH = join(DATA_DIR, 'maps-rotation.json');
 
 const API_BASE = 'https://api.brawlstars.com/v1';
 const KEY = process.env.BS_API_KEY;
@@ -110,22 +109,6 @@ async function main() {
     }
   }
 
-  // 맵 로테이션도 같이 갱신 (참고용)
-  try {
-    console.log('');
-    console.log('현재 이벤트 로테이션 가져오는 중...');
-    const rotation = await api('/events/rotation');
-    const maps = rotation.map(e => ({
-      mode: e.event?.mode,
-      map: e.event?.map,
-      startTime: e.startTime,
-      endTime: e.endTime
-    }));
-    await writeFile(ROTATION_PATH, JSON.stringify(maps, null, 2) + '\n', 'utf8');
-    console.log(`  → maps-rotation.json 에 ${maps.length}개 저장`);
-  } catch (e) {
-    console.warn('  (로테이션 가져오기 실패: ' + e.message + ')');
-  }
 }
 
 main().catch(err => {
