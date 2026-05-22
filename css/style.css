@@ -86,6 +86,23 @@ p.muted { color: var(--text-dim); margin: 4px 0 16px; }
   margin-bottom: 20px;
 }
 
+/* 라벨+셀렉트 짝을 가지런히 배치 */
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-end;
+}
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+.form-field > label {
+  margin: 0;
+}
+
 select, input[type="text"] {
   background: var(--bg-elev-2);
   color: var(--text);
@@ -370,4 +387,97 @@ button.ghost {
 }
 .range-chip--reset:hover {
   color: var(--text);
+}
+
+/* ========== 모바일 (≤ 720px) ========== */
+@media (max-width: 720px) {
+  body { font-size: 14px; }
+
+  main { padding: 16px 12px; }
+  h1 { font-size: 20px; margin-bottom: 6px; }
+  h2 { font-size: 16px; margin: 18px 0 10px; }
+
+  /* 헤더: 가로폭이 모자라면 자연스럽게 줄바꿈 */
+  header.site {
+    padding: 10px 14px;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  header.site .brand { font-size: 15px; }
+  header.site nav { gap: 4px; flex-wrap: wrap; }
+  header.site nav a { padding: 6px 10px; font-size: 13px; }
+
+  /* 패널/카드 여백 줄이기 */
+  .panel {
+    padding: 12px;
+    margin-bottom: 14px;
+    border-radius: 8px;
+  }
+
+  /* 폼: 라벨/셀렉트 쌍을 세로로 쌓고 셀렉트는 가로 100% */
+  .form-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .form-field { width: 100%; }
+  .form-field .combobox { width: 100%; }
+  .form-field .combobox-button { width: 100%; min-width: 0; }
+
+  /* 사거리 필터: 칩 크기 살짝 축소 */
+  .range-chip { padding: 4px 10px; font-size: 12px; }
+  .range-filter-label { font-size: 12px; }
+
+  /* 상성표: 셀 폭/패딩 다이어트 + 너무 좁으면 2열로 */
+  .matchup-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 6px;
+  }
+  .matchup-cell {
+    padding: 7px 10px;
+    font-size: 13px;
+  }
+  .matchup-cell .score { font-size: 11px; padding: 2px 7px; }
+
+  /* 티어 행: 라벨 칸 줄이고 칩 다이어트 */
+  .tier-row { grid-template-columns: 48px 1fr; }
+  .tier-label { font-size: 18px; padding: 10px 0; }
+  .tier-brawlers { gap: 5px; padding: 8px 10px; }
+  .brawler-chip { padding: 3px 9px; font-size: 12px; }
+
+  /* 드래프트: 픽 슬롯 안의 셀렉트가 남은 폭을 모두 차지 */
+  .draft-grid { gap: 12px; }
+  .pick-slot { padding: 8px 10px; gap: 8px; }
+  .pick-slot .combobox { flex: 1; min-width: 0; }
+  .pick-slot .combobox-button { width: 100%; min-width: 0; }
+
+  /* 추천 픽 리스트 다이어트 */
+  .recommend-list li { padding: 8px 12px; font-size: 13px; }
+  .recommend-list .score-pill { font-size: 12px; padding: 2px 9px; }
+
+  /* combobox 패널이 카드 폭을 넘지 않게 */
+  .combobox-panel {
+    max-width: 100%;
+    width: max-content;
+    min-width: 100%;
+  }
+}
+
+/* ========== 좁은 폰 (≤ 420px) ========== */
+@media (max-width: 420px) {
+  main { padding: 12px 10px; }
+  header.site { padding: 8px 12px; }
+  header.site nav a { padding: 5px 7px; font-size: 12px; }
+
+  /* 상성표는 무조건 2열 */
+  .matchup-grid { grid-template-columns: repeat(2, 1fr); gap: 5px; }
+  .matchup-cell { padding: 6px 8px; font-size: 12px; }
+  .matchup-cell .name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .tier-label { font-size: 16px; padding: 8px 0; }
+  .brawler-chip { padding: 2px 8px; font-size: 11px; }
 }
