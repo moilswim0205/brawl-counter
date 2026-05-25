@@ -1,43 +1,43 @@
 {
-  "_comment": "맵별 브롤러 티어. 2025~2026 초 메타 기준 일반적 평가. 모드 → 맵 이름 → 티어(S/A/B/C/D) → 브롤러 slug 배열.",
+  "_comment": "맵별 브롤러 티어. 키는 '한글 (영문)' 형식. 2025~2026 초 메타 기준 일반적 평가. 모드 → 맵 이름 → 티어(S/A/B/C/D) → 브롤러 slug 배열.",
   "modes": {
     "젬 그랩": {
-      "하드 록 광산": {
+      "하드 록 광산 (Hard Rock Mine)": {
         "S": ["gene", "tara", "pam"],
         "A": ["jessie", "rico", "8-bit", "amber"],
         "B": ["nita", "poco", "spike", "byron"],
         "C": ["shelly", "el-primo", "bull"],
         "D": ["piper", "mortis", "leon", "edgar"]
       },
-      "크리스탈 아케이드": {
+      "크리스탈 아케이드 (Crystal Arcade)": {
         "S": ["spike", "tara", "amber"],
         "A": ["pam", "jessie", "gene", "byron"],
         "B": ["nita", "bo", "poco"],
         "C": ["el-primo", "frank", "rosa"],
         "D": ["piper", "darryl", "edgar"]
       },
-      "더블 휙": {
+      "더블 휙 (Double Swoosh)": {
         "S": ["tara", "spike", "amber"],
         "A": ["pam", "jessie", "byron", "gene"],
         "B": ["poco", "bo", "nita", "max"],
         "C": ["el-primo", "bull", "frank"],
         "D": ["piper", "darryl", "leon"]
       },
-      "언더마인": {
+      "언더마인 (Undermine)": {
         "S": ["barley", "sprout", "tick", "dynamike"],
         "A": ["spike", "tara", "rico"],
         "B": ["pam", "jessie", "byron"],
         "C": ["el-primo", "frank", "bibi"],
         "D": ["piper", "mortis", "edgar"]
       },
-      "마지막 정거장": {
+      "마지막 정거장 (Last Stop)": {
         "S": ["piper", "bea", "mandy", "8-bit"],
         "A": ["belle", "brock", "rico", "angelo"],
         "B": ["tara", "spike", "pam"],
         "C": ["nita", "jessie"],
         "D": ["el-primo", "edgar", "mortis"]
       },
-      "광차의 광기": {
+      "광차의 광기 (Minecart Madness)": {
         "S": ["barley", "dynamike", "tick"],
         "A": ["sprout", "grom", "spike"],
         "B": ["tara", "gene", "jessie"],
@@ -46,42 +46,42 @@
       }
     },
     "쇼다운": {
-      "해골 강": {
+      "해골 강 (Skull Creek)": {
         "S": ["shelly", "bull", "darryl", "edgar"],
         "A": ["el-primo", "frank", "rosa", "fang"],
         "B": ["mortis", "crow", "leon", "buzz"],
         "C": ["nita", "rico", "stu"],
         "D": ["piper", "barley", "8-bit"]
       },
-      "동굴 격동": {
+      "동굴 격동 (Cavern Churn)": {
         "S": ["bull", "darryl", "shelly", "edgar"],
         "A": ["el-primo", "spike", "fang", "rosa"],
         "B": ["mortis", "crow", "leon"],
         "C": ["jessie", "nita", "amber"],
         "D": ["piper", "brock", "8-bit"]
       },
-      "향연과 굶주림": {
+      "향연과 굶주림 (Feast or Famine)": {
         "S": ["piper", "belle", "mandy", "leon"],
         "A": ["brock", "8-bit", "amber"],
         "B": ["bea", "stu", "max"],
         "C": ["shelly", "bull"],
         "D": ["edgar", "mortis", "barley"]
       },
-      "산성 호수": {
+      "산성 호수 (Acid Lakes)": {
         "S": ["belle", "piper", "leon", "stu"],
         "A": ["mandy", "amber", "max"],
         "B": ["bea", "8-bit", "brock"],
         "C": ["shelly", "darryl"],
         "D": ["el-primo", "edgar", "barley"]
       },
-      "어두운 통로": {
+      "어두운 통로 (Dark Passage)": {
         "S": ["shelly", "bull", "edgar", "darryl"],
         "A": ["leon", "spike", "el-primo"],
         "B": ["mortis", "crow", "fang"],
         "C": ["nita", "rosa"],
         "D": ["piper", "8-bit", "barley"]
       },
-      "암벽 격전": {
+      "암벽 격전 (Rockwall Brawl)": {
         "S": ["barley", "dynamike", "tick"],
         "A": ["sprout", "spike", "stu"],
         "B": ["leon", "crow", "rico"],
@@ -97,42 +97,42 @@
       }
     },
     "브롤 볼": {
-      "뒷마당 경기장": {
+      "뒷마당 경기장 (Backyard Bowl)": {
         "S": ["el-primo", "frank", "hank", "buster"],
         "A": ["shelly", "darryl", "bibi", "mortis"],
         "B": ["nita", "rosa", "poco"],
         "C": ["pam", "jessie"],
         "D": ["piper", "brock", "8-bit"]
       },
-      "작은 구멍": {
+      "작은 구멍 (Pinhole Punt)": {
         "S": ["spike", "brock", "tick", "barley"],
         "A": ["piper", "rico", "dynamike"],
         "B": ["pam", "jessie", "byron"],
         "C": ["mortis", "stu"],
         "D": ["bull", "shelly", "edgar"]
       },
-      "음흉한 들판": {
+      "음흉한 들판 (Sneaky Fields)": {
         "S": ["mortis", "edgar", "fang", "buzz"],
         "A": ["el-primo", "frank", "darryl"],
         "B": ["shelly", "rosa", "bibi"],
         "C": ["nita", "poco"],
         "D": ["piper", "8-bit", "brock"]
       },
-      "중앙 무대": {
+      "중앙 무대 (Center Stage)": {
         "S": ["frank", "hank", "buster", "el-primo"],
         "A": ["bibi", "darryl", "mortis"],
         "B": ["shelly", "rosa", "poco"],
         "C": ["nita", "pam"],
         "D": ["piper", "brock", "8-bit"]
       },
-      "트리플 드리블": {
+      "트리플 드리블 (Triple Dribble)": {
         "S": ["mortis", "edgar", "fang"],
         "A": ["el-primo", "frank", "shelly"],
         "B": ["bibi", "darryl", "rosa"],
         "C": ["poco", "max"],
         "D": ["piper", "brock", "8-bit"]
       },
-      "핀볼 드림": {
+      "핀볼 드림 (Pinball Dreams)": {
         "S": ["brock", "spike", "rico"],
         "A": ["piper", "8-bit", "pam"],
         "B": ["barley", "tick", "byron"],
@@ -148,42 +148,42 @@
       }
     },
     "하이스트": {
-      "안전 지대": {
+      "안전 지대 (Safe Zone)": {
         "S": ["colt", "brock", "spike", "8-bit"],
         "A": ["bull", "darryl", "edgar"],
         "B": ["shelly", "dynamike", "tick"],
         "C": ["pam", "jessie", "byron"],
         "D": ["mortis", "el-primo", "piper"]
       },
-      "G.G. 영안실": {
+      "G.G. 영안실 (G.G. Mortuary)": {
         "S": ["bull", "darryl", "shelly", "edgar"],
         "A": ["el-primo", "colt", "rosa"],
         "B": ["brock", "spike", "8-bit"],
         "C": ["jessie", "nita"],
         "D": ["piper", "mortis", "pam"]
       },
-      "핫 포테이토": {
+      "핫 포테이토 (Hot Potato)": {
         "S": ["spike", "brock", "colt"],
         "A": ["bull", "darryl", "8-bit"],
         "B": ["edgar", "frank", "shelly"],
         "C": ["jessie", "pam"],
         "D": ["piper", "mortis"]
       },
-      "너무 먼 다리": {
+      "너무 먼 다리 (Bridge Too Far)": {
         "S": ["piper", "brock", "8-bit", "mandy"],
         "A": ["colt", "spike", "belle"],
         "B": ["jessie", "pam", "amber"],
         "C": ["nita", "bo"],
         "D": ["bull", "shelly", "edgar"]
       },
-      "피트 스톱": {
+      "피트 스톱 (Pit Stop)": {
         "S": ["bull", "darryl", "edgar", "shelly"],
         "A": ["el-primo", "spike", "8-bit"],
         "B": ["brock", "colt", "frank"],
         "C": ["jessie", "rosa"],
         "D": ["piper", "mortis", "pam"]
       },
-      "펑펑 협곡": {
+      "펑펑 협곡 (Kaboom Canyon)": {
         "S": ["colt", "brock", "spike", "8-bit"],
         "A": ["bull", "darryl"],
         "B": ["shelly", "frank", "edgar"],
@@ -199,42 +199,42 @@
       }
     },
     "바운티": {
-      "뱀 초원": {
+      "뱀 초원 (Snake Prairie)": {
         "S": ["piper", "brock", "bea", "mandy"],
         "A": ["bo", "spike", "tara"],
         "B": ["mortis", "crow", "leon"],
         "C": ["bull", "shelly"],
         "D": ["barley", "dynamike", "el-primo"]
       },
-      "은신처": {
+      "은신처 (Hideout)": {
         "S": ["piper", "brock", "spike", "mandy"],
         "A": ["bo", "tara", "belle"],
         "B": ["crow", "rico", "8-bit"],
         "C": ["nita", "jessie"],
         "D": ["el-primo", "bull", "edgar"]
       },
-      "레이어 케이크": {
+      "레이어 케이크 (Layer Cake)": {
         "S": ["piper", "belle", "mandy", "bea"],
         "A": ["brock", "8-bit", "amber"],
         "B": ["spike", "tara", "byron"],
         "C": ["nita", "jessie"],
         "D": ["el-primo", "edgar", "shelly"]
       },
-      "슈팅 스타": {
+      "슈팅 스타 (Shooting Star)": {
         "S": ["piper", "mandy", "belle", "8-bit"],
         "A": ["bea", "angelo", "brock"],
         "B": ["spike", "byron", "amber"],
         "C": ["nita", "tara"],
         "D": ["el-primo", "edgar", "bull"]
       },
-      "엑셀": {
+      "엑셀 (Excel)": {
         "S": ["belle", "piper", "mandy"],
         "A": ["brock", "8-bit", "bea"],
         "B": ["spike", "tara", "byron"],
         "C": ["nita", "jessie"],
         "D": ["el-primo", "edgar", "shelly"]
       },
-      "카날 그란데": {
+      "카날 그란데 (Canal Grande)": {
         "S": ["piper", "belle", "mandy", "angelo"],
         "A": ["brock", "8-bit", "amber"],
         "B": ["spike", "tara"],
@@ -243,35 +243,35 @@
       }
     },
     "핫 존": {
-      "불의 고리": {
+      "불의 고리 (Ring of Fire)": {
         "S": ["tara", "jessie", "pam", "gene"],
         "A": ["spike", "amber", "byron"],
         "B": ["nita", "poco", "max"],
         "C": ["el-primo", "frank"],
         "D": ["piper", "mortis", "8-bit"]
       },
-      "영업 중": {
+      "영업 중 (Open Business)": {
         "S": ["belle", "piper", "mandy", "8-bit"],
         "A": ["brock", "bea", "amber"],
         "B": ["spike", "tara", "byron"],
         "C": ["nita", "jessie"],
         "D": ["el-primo", "edgar", "shelly"]
       },
-      "평행 플레이": {
+      "평행 플레이 (Parallel Plays)": {
         "S": ["jessie", "pam", "tara", "amber"],
         "A": ["spike", "gene", "byron"],
         "B": ["nita", "poco", "max"],
         "C": ["el-primo", "rosa"],
         "D": ["piper", "mortis", "8-bit"]
       },
-      "결투하는 딱정벌레": {
+      "결투하는 딱정벌레 (Dueling Beetles)": {
         "S": ["barley", "dynamike", "sprout"],
         "A": ["jessie", "pam", "spike"],
         "B": ["tara", "byron", "amber"],
         "C": ["nita", "el-primo"],
         "D": ["piper", "mortis", "edgar"]
       },
-      "스플릿": {
+      "스플릿 (Split)": {
         "S": ["jessie", "pam", "amber", "tara"],
         "A": ["spike", "gene", "byron"],
         "B": ["nita", "poco", "max"],
@@ -280,42 +280,42 @@
       }
     },
     "녹아웃": {
-      "벨의 바위": {
+      "벨의 바위 (Belle's Rock)": {
         "S": ["bull", "darryl", "shelly", "edgar"],
         "A": ["el-primo", "spike", "fang"],
         "B": ["mortis", "crow", "leon"],
         "C": ["nita", "rosa"],
         "D": ["piper", "brock", "8-bit"]
       },
-      "탁 트인 곳": {
+      "탁 트인 곳 (Out in the Open)": {
         "S": ["piper", "belle", "mandy", "bea"],
         "A": ["brock", "8-bit", "angelo"],
         "B": ["spike", "tara", "byron"],
         "C": ["nita", "jessie"],
         "D": ["el-primo", "edgar", "bull"]
       },
-      "깊은 곳": {
+      "깊은 곳 (Deep End)": {
         "S": ["piper", "mandy", "belle", "angelo"],
         "A": ["bea", "brock", "8-bit"],
         "B": ["spike", "byron"],
         "C": ["tara", "nita"],
         "D": ["el-primo", "edgar", "bull"]
       },
-      "골드암 협곡": {
+      "골드암 협곡 (Goldarm Gulch)": {
         "S": ["bull", "shelly", "darryl", "edgar"],
         "A": ["el-primo", "fang", "spike"],
         "B": ["mortis", "crow", "nita"],
         "C": ["jessie", "rosa"],
         "D": ["piper", "8-bit", "brock"]
       },
-      "불타는 피닉스": {
+      "불타는 피닉스 (Flaring Phoenix)": {
         "S": ["piper", "belle", "mandy", "8-bit"],
         "A": ["brock", "bea", "amber"],
         "B": ["spike", "tara", "byron"],
         "C": ["nita", "jessie"],
         "D": ["el-primo", "edgar", "shelly"]
       },
-      "새로운 지평선": {
+      "새로운 지평선 (New Horizons)": {
         "S": ["belle", "piper", "mandy"],
         "A": ["brock", "8-bit", "spike"],
         "B": ["tara", "byron", "amber"],
