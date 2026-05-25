@@ -87,6 +87,13 @@
         "B": ["leon", "crow", "rico"],
         "C": ["shelly", "bull"],
         "D": ["piper", "el-primo", "8-bit"]
+      },
+      "수련 연못 (Lilypond Grove)": {
+        "S": [],
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": []
       }
     },
     "브롤 볼": {
@@ -131,6 +138,13 @@
         "B": ["barley", "tick", "byron"],
         "C": ["mortis", "stu"],
         "D": ["edgar", "bull"]
+      },
+      "잔디 매듭 (Grass Knot)": {
+        "S": [],
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": []
       }
     },
     "하이스트": {
@@ -175,6 +189,13 @@
         "B": ["shelly", "frank", "edgar"],
         "C": ["pam", "jessie"],
         "D": ["piper", "mortis", "barley"]
+      },
+      "퀸틸리언 (Quintillion)": {
+        "S": [],
+        "A": [],
+        "B": [],
+        "C": [],
+        "D": []
       }
     },
     "바운티": {
