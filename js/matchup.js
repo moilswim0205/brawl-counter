@@ -1,6 +1,6 @@
 import {
   renderHeader, getBrawlers, getMatchups, getMapTier,
-  fillBrawlerSelect, matchupScore, enhanceSelect, makeRangeFilter
+  fillBrawlerSelect, matchupScore, enhanceSelect, makeRangeFilter, josa
 } from './common.js';
 
 renderHeader('matchup');
@@ -80,8 +80,9 @@ function renderFavorableMaps(slug) {
   const tierRank = { S: 0, A: 1 };
   found.sort((a, b) => tierRank[a.tier] - tierRank[b.tier]);
 
+  const name = brawlerNameOf(slug);
   mapTitleEl.style.display = '';
-  mapTitleEl.textContent = `${brawlerNameOf(slug)}가 유리한 맵 (${found.length}개)`;
+  mapTitleEl.textContent = `${name}${josa(name, '이', '가')} 유리한 맵 (${found.length}개)`;
 
   if (found.length === 0) {
     mapResultEl.innerHTML = '<p class="empty-hint">맵 티어 데이터에 등록된 곳이 없습니다.</p>';

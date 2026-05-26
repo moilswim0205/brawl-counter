@@ -30,6 +30,34 @@ export function brawlerNameBySlug(brawlers, slug) {
   return b ? b.name : slug;
 }
 
+// 한국어 조사 선택 — 마지막 글자의 받침 유무로 갈림.
+//   josa('셸리', '이', '가') → '가'   (받침 없음)
+//   josa('그롬', '이', '가') → '이'   (받침 있음)
+//   josa('R-T',  '이', '가') → '가'   (T → 티 → 받침 없음)
+//   josa('미스터 P', '이', '가') → '가'
+// 사용: `${name}${josa(name, '이', '가')} 유리한 맵`
+const EN_LETTER_HAS_PATCHIM = new Set(['F', 'L', 'M', 'N', 'R']);
+export function josa(name, withPatchim, withoutPatchim) {
+  if (!name) return withoutPatchim;
+  const last = name[name.length - 1];
+  const code = last.charCodeAt(0);
+  // 한글 음절 영역
+  if (code >= 0xAC00 && code <= 0xD7A3) {
+    return ((code - 0xAC00) % 28) !== 0 ? withPatchim : withoutPatchim;
+  }
+  // 영문자 끝: 한국어 발음 기준 받침 (F=에프, L=엘, M=엠, N=엔, R=알)
+  const up = last.toUpperCase();
+  if (/[A-Z]/.test(up)) {
+    return EN_LETTER_HAS_PATCHIM.has(up) ? withPatchim : withoutPatchim;
+  }
+  // 숫자나 기타 → 발음대로 (예: 0~9의 한국어 끝글자 받침)
+  const digitPatchim = { '0': true, '1': true, '3': true, '6': true, '7': true, '8': true };
+  if (/[0-9]/.test(last)) {
+    return digitPatchim[last] ? withPatchim : withoutPatchim;
+  }
+  return withoutPatchim;
+}
+
 export function matchupScore(matchups, attackerSlug, defenderSlug) {
   if (attackerSlug === defenderSlug) return 0;
   const aToD = matchups[attackerSlug]?.[defenderSlug];
