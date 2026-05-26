@@ -239,6 +239,46 @@ button.ghost {
   padding: 12px 0;
 }
 
+/* 상성표 하단: 유리한 맵 목록 */
+.map-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.map-list-row {
+  display: grid;
+  grid-template-columns: 32px 80px 1fr;
+  align-items: center;
+  gap: 12px;
+  background: var(--bg-elev-2);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+.tier-badge {
+  font-weight: 800;
+  font-size: 12px;
+  padding: 3px 0;
+  border-radius: 4px;
+  text-align: center;
+}
+.tier-badge-S { background: var(--tier-S); color: white; }
+.tier-badge-A { background: var(--tier-A); color: #1a1a1a; }
+.mode-badge {
+  color: var(--text-dim);
+  font-size: 12px;
+}
+.map-name { color: var(--text); }
+@media (max-width: 420px) {
+  .map-list-row {
+    grid-template-columns: 28px 70px 1fr;
+    gap: 8px;
+    padding: 7px 10px;
+    font-size: 13px;
+  }
+}
+
 /* 검색 가능한 커스텀 드롭다운 */
 .combobox {
   position: relative;
