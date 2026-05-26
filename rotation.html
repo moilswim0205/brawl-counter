@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>현재 로테이션 · Brawl Counter</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site"></header>
+  <main>
+    <h1>현재 로테이션</h1>
+    <p class="muted" id="status">로딩 중...</p>
+
+    <div id="grid" class="rotation-grid"></div>
+
+    <p class="muted" style="margin-top:24px; font-size:13px">
+      데이터 출처: 공식 Brawl Stars API. 갱신:
+      <code>node scripts/fetch-data.js</code> 후 <code>.\deploy.ps1</code>.
+    </p>
+  </main>
+  <script type="module" src="js/rotation.js"></script>
+</body>
+</html>

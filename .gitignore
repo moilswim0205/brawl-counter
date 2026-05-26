@@ -3,6 +3,3 @@ node_modules/
 .env.local
 .DS_Store
 Thumbs.db
-
-# 로테이션 데이터는 매번 fetch-data.js 실행 시 갱신되는 임시 파일
-data/maps-rotation.json

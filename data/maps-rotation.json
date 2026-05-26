@@ -1,0 +1,80 @@
+[
+  {
+    "mode": "brawlBall",
+    "map": "Grass Knot",
+    "startTime": "20260524T080000.000Z",
+    "endTime": "20260525T080000.000Z"
+  },
+  {
+    "mode": "soloShowdown",
+    "map": "Lilypond Grove",
+    "startTime": "20260524T200000.000Z",
+    "endTime": "20260525T200000.000Z"
+  },
+  {
+    "mode": "gemGrab",
+    "map": "Crystal Arcade",
+    "startTime": "20260525T000000.000Z",
+    "endTime": "20260526T000000.000Z"
+  },
+  {
+    "mode": "heist",
+    "map": "Quintillion",
+    "startTime": "20260524T180000.000Z",
+    "endTime": "20260525T180000.000Z"
+  },
+  {
+    "mode": "duoShowdown",
+    "map": "Lilypond Grove",
+    "startTime": "20260524T200000.000Z",
+    "endTime": "20260525T200000.000Z"
+  },
+  {
+    "mode": "knockout",
+    "map": "Flaring Phoenix",
+    "startTime": "20260524T020000.000Z",
+    "endTime": "20260525T020000.000Z"
+  },
+  {
+    "mode": "tagTeam",
+    "map": "Paralysis Pen",
+    "startTime": "20260524T160000.000Z",
+    "endTime": "20260525T160000.000Z"
+  },
+  {
+    "mode": "airHockey",
+    "map": "Arabesque",
+    "startTime": "20260524T100000.000Z",
+    "endTime": "20260525T100000.000Z"
+  },
+  {
+    "mode": "trioShowdown",
+    "map": "Lilypond Grove",
+    "startTime": "20260524T200000.000Z",
+    "endTime": "20260525T200000.000Z"
+  },
+  {
+    "mode": "brawlArena",
+    "map": "The Smackdome",
+    "startTime": "20260524T140000.000Z",
+    "endTime": "20260525T140000.000Z"
+  },
+  {
+    "mode": "deathmatch5v5",
+    "map": "Slippery road",
+    "startTime": "20260524T120000.000Z",
+    "endTime": "20260525T120000.000Z"
+  },
+  {
+    "mode": "deathmatch",
+    "map": "WALKING ON HOT SAND",
+    "startTime": "20260524T040000.000Z",
+    "endTime": "20260525T040000.000Z"
+  },
+  {
+    "mode": "airHockey",
+    "map": "Bouncy Bowl",
+    "startTime": "20260525T000000.000Z",
+    "endTime": "20260525T020000.000Z"
+  }
+]
