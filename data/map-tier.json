@@ -43,6 +43,13 @@
         "B": ["tara", "gene", "jessie"],
         "C": ["nita", "rosa"],
         "D": ["piper", "edgar", "mortis"]
+      },
+      "그림 같은 (Picturesque)": {
+        "S": ["tara", "spike", "amber"],
+        "A": ["pam", "jessie", "gene", "byron"],
+        "B": ["nita", "poco", "bo"],
+        "C": ["el-primo", "frank", "rosa"],
+        "D": ["piper", "mortis", "edgar"]
       }
     },
     "쇼다운": {
@@ -89,11 +96,18 @@
         "D": ["piper", "el-primo", "8-bit"]
       },
       "수련 연못 (Lilypond Grove)": {
-        "S": [],
-        "A": [],
-        "B": [],
-        "C": [],
-        "D": []
+        "S": ["shelly", "bull", "darryl", "edgar"],
+        "A": ["el-primo", "leon", "fang", "spike"],
+        "B": ["mortis", "crow", "rosa"],
+        "C": ["nita", "amber", "stu"],
+        "D": ["piper", "8-bit", "brock"]
+      },
+      "안전 센터 (Safety Center)": {
+        "S": ["shelly", "bull", "darryl", "edgar"],
+        "A": ["el-primo", "frank", "rosa", "fang"],
+        "B": ["mortis", "crow", "leon", "buzz"],
+        "C": ["nita", "spike", "amber"],
+        "D": ["piper", "barley", "8-bit"]
       }
     },
     "브롤 볼": {
@@ -140,11 +154,18 @@
         "D": ["edgar", "bull"]
       },
       "잔디 매듭 (Grass Knot)": {
-        "S": [],
-        "A": [],
-        "B": [],
-        "C": [],
-        "D": []
+        "S": ["el-primo", "frank", "hank", "mortis"],
+        "A": ["shelly", "darryl", "bibi", "edgar"],
+        "B": ["nita", "rosa", "poco", "fang"],
+        "C": ["pam", "jessie"],
+        "D": ["piper", "brock", "8-bit"]
+      },
+      "매치 1123581321 (Match 1123581321)": {
+        "S": ["el-primo", "frank", "hank", "buster"],
+        "A": ["shelly", "darryl", "bibi", "mortis"],
+        "B": ["nita", "rosa", "poco"],
+        "C": ["pam", "jessie"],
+        "D": ["piper", "brock", "8-bit"]
       }
     },
     "하이스트": {
@@ -191,11 +212,11 @@
         "D": ["piper", "mortis", "barley"]
       },
       "퀸틸리언 (Quintillion)": {
-        "S": [],
-        "A": [],
-        "B": [],
-        "C": [],
-        "D": []
+        "S": ["colt", "brock", "spike", "8-bit"],
+        "A": ["bull", "darryl", "edgar"],
+        "B": ["shelly", "frank", "dynamike"],
+        "C": ["pam", "jessie", "byron"],
+        "D": ["piper", "mortis", "barley"]
       }
     },
     "바운티": {
@@ -240,6 +261,13 @@
         "B": ["spike", "tara"],
         "C": ["nita", "byron"],
         "D": ["el-primo", "bull", "edgar"]
+      },
+      "합창실 (Choral Chambers)": {
+        "S": ["piper", "belle", "mandy", "bea"],
+        "A": ["brock", "bo", "spike"],
+        "B": ["tara", "byron", "amber"],
+        "C": ["nita", "jessie"],
+        "D": ["el-primo", "edgar", "shelly"]
       }
     },
     "핫 존": {
@@ -321,6 +349,13 @@
         "B": ["tara", "byron", "amber"],
         "C": ["nita", "jessie"],
         "D": ["el-primo", "edgar", "bull"]
+      },
+      "기사도 (Chivalry)": {
+        "S": ["bull", "shelly", "darryl", "edgar"],
+        "A": ["el-primo", "spike", "fang"],
+        "B": ["mortis", "crow", "leon"],
+        "C": ["nita", "rosa"],
+        "D": ["piper", "brock", "8-bit"]
       }
     }
   }
