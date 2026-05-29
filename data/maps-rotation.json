@@ -1,45 +1,45 @@
 [
   {
     "mode": "brawlBall",
-    "map": "Super Beach",
-    "startTime": "20260527T080000.000Z",
-    "endTime": "20260528T080000.000Z"
+    "map": "Goalies",
+    "startTime": "20260528T080000.000Z",
+    "endTime": "20260529T080000.000Z"
   },
   {
     "mode": "soloShowdown",
-    "map": "Rockwall Brawl",
-    "startTime": "20260527T200000.000Z",
-    "endTime": "20260528T200000.000Z"
+    "map": "Skull Creek",
+    "startTime": "20260528T200000.000Z",
+    "endTime": "20260529T200000.000Z"
   },
   {
     "mode": "gemGrab",
-    "map": "Satomi Springs",
-    "startTime": "20260528T000000.000Z",
-    "endTime": "20260529T000000.000Z"
+    "map": "Undermine",
+    "startTime": "20260529T000000.000Z",
+    "endTime": "20260530T000000.000Z"
   },
   {
-    "mode": "hotZone",
-    "map": "Parallel Plays",
-    "startTime": "20260527T180000.000Z",
-    "endTime": "20260528T180000.000Z"
+    "mode": "heist",
+    "map": "Photic Doom",
+    "startTime": "20260528T180000.000Z",
+    "endTime": "20260529T180000.000Z"
   },
   {
     "mode": "duoShowdown",
-    "map": "Rockwall Brawl",
-    "startTime": "20260527T200000.000Z",
-    "endTime": "20260528T200000.000Z"
+    "map": "Skull Creek",
+    "startTime": "20260528T200000.000Z",
+    "endTime": "20260529T200000.000Z"
   },
   {
     "mode": "knockout",
-    "map": "Please Remain Standing",
-    "startTime": "20260528T020000.000Z",
-    "endTime": "20260529T020000.000Z"
+    "map": "Double Decker",
+    "startTime": "20260529T020000.000Z",
+    "endTime": "20260530T020000.000Z"
   },
   {
-    "mode": "bounty",
-    "map": "Shooting Star",
-    "startTime": "20260527T160000.000Z",
-    "endTime": "20260528T160000.000Z"
+    "mode": "tagTeam",
+    "map": "No Surrender",
+    "startTime": "20260528T160000.000Z",
+    "endTime": "20260529T160000.000Z"
   },
   {
     "mode": "hotZone",
@@ -73,27 +73,27 @@
   },
   {
     "mode": "airHockey",
-    "map": "Cabin Fever",
-    "startTime": "20260527T100000.000Z",
-    "endTime": "20260528T100000.000Z"
+    "map": "Super Center",
+    "startTime": "20260528T100000.000Z",
+    "endTime": "20260529T100000.000Z"
   },
   {
     "mode": "trioShowdown",
-    "map": "Rockwall Brawl",
-    "startTime": "20260527T200000.000Z",
-    "endTime": "20260528T200000.000Z"
+    "map": "Skull Creek",
+    "startTime": "20260528T200000.000Z",
+    "endTime": "20260529T200000.000Z"
   },
   {
     "mode": "brawlArena",
-    "map": "Kaiju Lake",
-    "startTime": "20260527T140000.000Z",
-    "endTime": "20260528T140000.000Z"
+    "map": "Crimson Divide",
+    "startTime": "20260528T140000.000Z",
+    "endTime": "20260529T140000.000Z"
   },
   {
-    "mode": "deathmatch5v5",
-    "map": "Icy ice park",
-    "startTime": "20260527T120000.000Z",
-    "endTime": "20260528T120000.000Z"
+    "mode": "knockout5V5",
+    "map": "Journey of a Thousand Steps",
+    "startTime": "20260528T120000.000Z",
+    "endTime": "20260529T120000.000Z"
   },
   {
     "mode": "deathmatch",
@@ -102,9 +102,9 @@
     "endTime": "20260529T040000.000Z"
   },
   {
-    "mode": "hotZone",
-    "map": "Open Business",
-    "startTime": "20260528T040000.000Z",
-    "endTime": "20260528T060000.000Z"
+    "mode": "airHockey",
+    "map": "Below Zero",
+    "startTime": "20260529T020000.000Z",
+    "endTime": "20260529T040000.000Z"
   }
 ]
