@@ -1,45 +1,45 @@
 [
   {
     "mode": "brawlBall",
-    "map": "Goalies",
-    "startTime": "20260528T080000.000Z",
-    "endTime": "20260529T080000.000Z"
+    "map": "Sneaky Fields",
+    "startTime": "20260530T080000.000Z",
+    "endTime": "20260531T080000.000Z"
   },
   {
     "mode": "soloShowdown",
-    "map": "Skull Creek",
-    "startTime": "20260528T200000.000Z",
-    "endTime": "20260529T200000.000Z"
+    "map": "Makeshift Scaffolding",
+    "startTime": "20260529T200000.000Z",
+    "endTime": "20260530T200000.000Z"
   },
   {
     "mode": "gemGrab",
-    "map": "Undermine",
-    "startTime": "20260529T000000.000Z",
-    "endTime": "20260530T000000.000Z"
+    "map": "Whisper Vale",
+    "startTime": "20260530T000000.000Z",
+    "endTime": "20260531T000000.000Z"
   },
   {
-    "mode": "heist",
-    "map": "Photic Doom",
-    "startTime": "20260528T180000.000Z",
-    "endTime": "20260529T180000.000Z"
+    "mode": "hotZone",
+    "map": "Golden Bay",
+    "startTime": "20260529T180000.000Z",
+    "endTime": "20260530T180000.000Z"
   },
   {
     "mode": "duoShowdown",
-    "map": "Skull Creek",
-    "startTime": "20260528T200000.000Z",
-    "endTime": "20260529T200000.000Z"
+    "map": "Makeshift Scaffolding",
+    "startTime": "20260529T200000.000Z",
+    "endTime": "20260530T200000.000Z"
   },
   {
     "mode": "knockout",
-    "map": "Double Decker",
-    "startTime": "20260529T020000.000Z",
-    "endTime": "20260530T020000.000Z"
+    "map": "New Perspective",
+    "startTime": "20260530T020000.000Z",
+    "endTime": "20260531T020000.000Z"
   },
   {
-    "mode": "tagTeam",
-    "map": "No Surrender",
-    "startTime": "20260528T160000.000Z",
-    "endTime": "20260529T160000.000Z"
+    "mode": "bounty",
+    "map": "Hit and Run",
+    "startTime": "20260529T160000.000Z",
+    "endTime": "20260530T160000.000Z"
   },
   {
     "mode": "hotZone",
@@ -73,38 +73,38 @@
   },
   {
     "mode": "airHockey",
-    "map": "Super Center",
-    "startTime": "20260528T100000.000Z",
-    "endTime": "20260529T100000.000Z"
+    "map": "Arabesque",
+    "startTime": "20260530T100000.000Z",
+    "endTime": "20260531T100000.000Z"
   },
   {
     "mode": "trioShowdown",
-    "map": "Skull Creek",
-    "startTime": "20260528T200000.000Z",
-    "endTime": "20260529T200000.000Z"
+    "map": "Makeshift Scaffolding",
+    "startTime": "20260529T200000.000Z",
+    "endTime": "20260530T200000.000Z"
   },
   {
     "mode": "brawlArena",
-    "map": "Crimson Divide",
-    "startTime": "20260528T140000.000Z",
-    "endTime": "20260529T140000.000Z"
+    "map": "Silver Highlands",
+    "startTime": "20260529T140000.000Z",
+    "endTime": "20260530T140000.000Z"
   },
   {
-    "mode": "knockout5V5",
-    "map": "Journey of a Thousand Steps",
-    "startTime": "20260528T120000.000Z",
-    "endTime": "20260529T120000.000Z"
+    "mode": "brawlBall5V5",
+    "map": "Stockpile Stadium",
+    "startTime": "20260529T120000.000Z",
+    "endTime": "20260530T120000.000Z"
   },
   {
     "mode": "deathmatch",
-    "map": "Hello Always Ends With a Goodbye",
-    "startTime": "20260528T040000.000Z",
-    "endTime": "20260529T040000.000Z"
+    "map": "Palette Hangout",
+    "startTime": "20260530T040000.000Z",
+    "endTime": "20260531T040000.000Z"
   },
   {
-    "mode": "airHockey",
-    "map": "Below Zero",
-    "startTime": "20260529T020000.000Z",
-    "endTime": "20260529T040000.000Z"
+    "mode": "soloShowdown",
+    "map": "Makeshift Scaffolding",
+    "startTime": "20260530T100000.000Z",
+    "endTime": "20260530T120000.000Z"
   }
 ]
