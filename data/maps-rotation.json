@@ -7,39 +7,39 @@
   },
   {
     "mode": "soloShowdown",
-    "map": "Makeshift Scaffolding",
-    "startTime": "20260529T200000.000Z",
-    "endTime": "20260530T200000.000Z"
+    "map": "Molten to the Core",
+    "startTime": "20260530T200000.000Z",
+    "endTime": "20260531T200000.000Z"
   },
   {
     "mode": "gemGrab",
-    "map": "Whisper Vale",
-    "startTime": "20260530T000000.000Z",
-    "endTime": "20260531T000000.000Z"
+    "map": "On a Roll",
+    "startTime": "20260531T000000.000Z",
+    "endTime": "20260601T000000.000Z"
   },
   {
-    "mode": "hotZone",
-    "map": "Golden Bay",
-    "startTime": "20260529T180000.000Z",
-    "endTime": "20260530T180000.000Z"
+    "mode": "heist",
+    "map": "Tuning Fork",
+    "startTime": "20260530T180000.000Z",
+    "endTime": "20260531T180000.000Z"
   },
   {
     "mode": "duoShowdown",
-    "map": "Makeshift Scaffolding",
-    "startTime": "20260529T200000.000Z",
-    "endTime": "20260530T200000.000Z"
+    "map": "Molten to the Core",
+    "startTime": "20260530T200000.000Z",
+    "endTime": "20260531T200000.000Z"
   },
   {
     "mode": "knockout",
-    "map": "New Perspective",
-    "startTime": "20260530T020000.000Z",
-    "endTime": "20260531T020000.000Z"
+    "map": "Konnakol",
+    "startTime": "20260531T020000.000Z",
+    "endTime": "20260601T020000.000Z"
   },
   {
-    "mode": "bounty",
-    "map": "Hit and Run",
-    "startTime": "20260529T160000.000Z",
-    "endTime": "20260530T160000.000Z"
+    "mode": "tagTeam",
+    "map": "The Great Mighty Lou",
+    "startTime": "20260530T160000.000Z",
+    "endTime": "20260531T160000.000Z"
   },
   {
     "mode": "hotZone",
@@ -79,32 +79,32 @@
   },
   {
     "mode": "trioShowdown",
-    "map": "Makeshift Scaffolding",
-    "startTime": "20260529T200000.000Z",
-    "endTime": "20260530T200000.000Z"
+    "map": "Molten to the Core",
+    "startTime": "20260530T200000.000Z",
+    "endTime": "20260531T200000.000Z"
   },
   {
     "mode": "brawlArena",
-    "map": "Silver Highlands",
-    "startTime": "20260529T140000.000Z",
-    "endTime": "20260530T140000.000Z"
+    "map": "Knockout Grounds",
+    "startTime": "20260530T140000.000Z",
+    "endTime": "20260531T140000.000Z"
   },
   {
-    "mode": "brawlBall5V5",
-    "map": "Stockpile Stadium",
-    "startTime": "20260529T120000.000Z",
-    "endTime": "20260530T120000.000Z"
+    "mode": "deathmatch5v5",
+    "map": "Frosty tracks",
+    "startTime": "20260530T120000.000Z",
+    "endTime": "20260531T120000.000Z"
   },
   {
-    "mode": "deathmatch",
-    "map": "Palette Hangout",
-    "startTime": "20260530T040000.000Z",
-    "endTime": "20260531T040000.000Z"
+    "mode": "basketBrawl",
+    "map": "Triple-Double",
+    "startTime": "20260531T040000.000Z",
+    "endTime": "20260601T040000.000Z"
   },
   {
-    "mode": "soloShowdown",
-    "map": "Makeshift Scaffolding",
-    "startTime": "20260530T100000.000Z",
-    "endTime": "20260530T120000.000Z"
+    "mode": "hotZone",
+    "map": "Dueling Beetles",
+    "startTime": "20260531T060000.000Z",
+    "endTime": "20260531T080000.000Z"
   }
 ]
